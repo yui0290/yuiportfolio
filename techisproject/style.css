@@ -1,0 +1,134 @@
+html{
+    width: 100%;
+    background:#3f79e4;
+    
+    
+}
+body {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 50px;
+    padding:20px;
+    min-height: 100%;
+    height: 100%;
+    
+}
+header{
+    position: relative;
+}
+header .yui >h1, header .yui>p{
+    display:inline-block;
+}
+header .yui >h1{
+    text-align:center;
+    color:white;
+    background-color:#3f79e4;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.menu{
+    display: inline ;
+   left:50%;
+   top: -75px;
+   margin-right: 12px;
+   position: relative;
+   
+
+}
+.menu >p >a{
+    color:gray ;
+    text-decoration: none;
+}
+
+
+.intro img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display:block;
+    grid-area: 1 1 1 １;
+    border: 10px solid whitesmoke;
+    position: relative;
+    left:80px;
+    align-items: flex-start;
+    
+}
+.text{
+    width: 500px;
+    position: relative;
+    right:100px;
+}
+div.pic{
+    height:320px;
+}
+.intro >h1{
+    font-size :40px;
+}
+.intro {
+    display: flex;
+    justify-content: space-between;
+    box-align: center;
+}
+.dr{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width:120px;
+
+}
+.what h1{
+    font-size: 35px;
+    position: relative;
+    left:50px;
+
+}
+    
+ul{
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height:500px;
+    
+
+ 
+    }
+ul li{
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    float: left;
+    width: 50%;
+    }
+
+
+li.bir{
+    list-style-image: url("birth.jpg");
+    position: relative;
+    left:150px;
+    
+}
+li.sex{
+    list-style-image: url("women.jpg");
+    position: relative;
+    left:120px;
+}
+
+li.hobby{
+    list-style-image: url("movie.jpg");
+    position: relative;
+    left: 150px;
+}
+li.skill{
+    list-style-image: url("badminton.jpg");
+    position: relative;
+    left:120px;
+    width:450px ;
+}
+p{
+    color:gray
+}
