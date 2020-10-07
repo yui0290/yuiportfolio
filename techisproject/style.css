@@ -17,10 +17,10 @@ body {
 header{
     position: relative;
 }
-header .yui >h1, header .yui>p{
+header .yui h1, header .yui p{
     display:inline-block;
 }
-header .yui >h1{
+header .yui h1{
     text-align:center;
     color:white;
     background-color:#3f79e4;
@@ -38,7 +38,7 @@ header .yui >h1{
    
 
 }
-.menu >p >a{
+.menu a{
     color:gray ;
     text-decoration: none;
 }
@@ -64,7 +64,7 @@ header .yui >h1{
 div.pic{
     height:320px;
 }
-.intro >h1{
+.intro h1{
     font-size :40px;
 }
 .intro {
